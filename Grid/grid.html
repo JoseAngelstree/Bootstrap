@@ -9,6 +9,23 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheed" href="../css/styles.css " />
+
+    <!--Estilos del todos los col -->
+    <style>
+        .row>div {
+            background-color: blue;
+            color: white;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            vertical-align: 10px;
+            font-weight: bold;
+            margin-top: 0px;
+            margin-bottom: 10px;
+            border: 4px solid black;
+        }
+    </style>
+
 
 
 </head>
@@ -17,8 +34,28 @@
     <h1>
         Grid de Boostrap
     </h1>
-
-
+    <!--El container es el contenedor principal y en el iran todas las filas y columnas -->
+    <!--El container tiene la propiedad de Centrar el Texto-->
+    <div class="container">
+        <!--Las filas son los grupos horizontales, en donde siempre van a ir las  columnas -->
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                <!--Todo el contenido debe ir dentro de una columnas-->
+                <!--y las columnas deben ir directamente dentro de las filas -->
+                <H2>Grid de Boostrap</H2>
+                <p>Este texto esta centrado debido a la propiedad de container de bootstrap ademas que sigue con los estandares que solicita la maquetacion de la grid
+                </p>
+            </div>
+            <div class="col-12 col-sm-6 col-md col-lg">
+                <h2>Columna 2 </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quas corporis fugiat ipsam eveniet! Aliquam totam dolorem nihil quaerat pariatur illum, suscipit deserunt dolorum veritatis, commodi quibusdam a asperiores sit?</p>
+            </div>
+            <div class=" col-sm col-md col-lg-6 ">
+                <h2>Columna 2 </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quas corporis fugiat ipsam eveniet! Aliquam totam dolorem nihil quaerat pariatur illum, suscipit deserunt dolorum veritatis, commodi quibusdam a asperiores sit?</p>
+            </div>
+        </div>
+    </div>
 
 
 
