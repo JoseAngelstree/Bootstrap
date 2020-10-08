@@ -10,18 +10,20 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <title>Columnas alineadas Vertialcamnte </title>
+
+
     <style>
         .row {
-            background-color: turquoise;
-            height: 150px;
-            margin-top: 20px;
+            background-color: tomato;
+            margin-top: 40px;
+            margin-bottom: 40px;
         }
         
-        .col {
-            background-color: dodgerblue;
+        .columna {
+            background-color: teal;
             text-align: center;
             padding: 10px;
-            border: 3px dashed white;
+            border: 1px dashed black;
         }
     </style>
 
@@ -31,36 +33,31 @@
 
 <body>
     <div class="container">
-        <div class="row ">
-            <div class="col">Columna #1 </div>
-            <div class="col">Columna #2 </div>
-            <div class="col">Columna #3 </div>
+        <div class="row justify-content-start">
+            <div class="columna col-4"> Columa 1 </div>
+            <div class="columna col-4"> Columa 2 </div>
         </div>
-        <div class="row align-items-start">
-            <div class="col">Columna #1 </div>
-            <div class="col">Columna #2 </div>
-            <div class="col">Columna #3 </div>
-        </div>
-        <div class="row align-items-center">
-            <div class="col">Columna #1 </div>
-            <div class="col">Columna #2 </div>
-            <div class="col">Columna #3 </div>
-        </div>
-        <div class="row align-items-end">
-            <div class="col">Columna #1 </div>
-            <div class="col">Columna #2 </div>
-            <div class="col">Columna #3 </div>
-        </div>
-        <br><br>
-        <p>Alineacion de las Columnas</p>
 
-        <div class="row ">
-            <div class="col align-self-start">Columna #1 </div>
-            <div class="col align-self-center">Columna #2 </div>
-            <div class="col align-self-end">Columna #3 </div>
+        <div class="row justify-content-center">
+            <div class="columna col-4"> Columa 1 </div>
+            <div class="columna col-4"> Columa 2 </div>
+        </div>
+        <div class="row justify-content-end">
+            <div class="columna col-4"> Columa 1 </div>
+            <div class="columna col-4"> Columa 2 </div>
+        </div>
+        <div class="row justify-content-around">
+            <div class="columna col-4"> Columa 1 </div>
+            <div class="columna col-4"> Columa 2 </div>
+        </div>
+        <div class="row justify-content-between">
+            <div class="columna col-4"> Columa 1 </div>
+            <div class="columna col-4"> Columa 2 </div>
         </div>
 
     </div>
+
+
 
 </body>
 
