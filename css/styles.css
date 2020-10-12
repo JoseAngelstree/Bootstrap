@@ -1,7 +1,44 @@
-.row>div {
-    background-color: aqua;
+body {
+    background-color: #f0f3f5;
+    color: white;
 }
 
-body {
-    background-color: aqua;
+header {
+    background-color: #9aca40;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+menu {
+    margin-bottom: 20px;
+}
+
+main {
+    background-color: white;
+    color: #424242;
+    padding: 20px 0px;
+}
+
+aside {
+    background-color: #dee5e8;
+    padding: 60px 0;
+    color: #0d47a1;
+}
+
+.cuadros {
+    background-color: #f2f2f2;
+    color: #424242;
+    margin-bottom: 20px;
+}
+
+.cuadros>div {
+    background-color: #2196f3;
+    color: white;
+    padding: 20px;
+}
+
+footer {
+    padding: 20px 0;
+    background-color: black;
+    color: white;
 }
