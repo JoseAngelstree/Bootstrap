@@ -4,10 +4,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document Esta es una Practica </title>
+    <title>Practica 1 Grid de Boostrap </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            background-color: rgb(189, 186, 186);
+        }
+        
+        .row {
+            margin-top: 10px;
+        }
+        
+        .header {
+            background-color: rgb(58, 100, 16);
+            height: 120px;
+            padding: 10px;
+            color: white;
+            font-size: 10px;
+        }
+        
+        .header p {
+            font-size: 15px;
+        }
+        
+        .main {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border: 1px solid black;
+            background-color: white;
+        }
+        
+        .columna {
+            padding-top: 10px;
+        }
+        
+        .aside {
+            background-color: darkgray;
+            color: dodgerblue;
+            height: 180px;
+            padding-top: 30px;
+        }
+        
+        .colus {
+            background-color: rgb(12, 92, 240);
+            color: white;
+            padding: 10px;
+            padding-bottom: 15px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        
+        .footer {
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="container">
+        <div class="row">
+            <div class="header col-12">
+                <h1>Header</h1>
+                <p>12 columna</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="main col-8">
+                <h1>MAIN</h1>
+                <p>8 columnas</p>
+                <div class="row">
+                    <div class=" columna col-12">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id beatae fuga impedit eaque sunt amet harum maiores provident aliquid temporibus? Doloribus quo at corrupti dolorem quasi dolorum odit itaque suscipit. Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit. Eaque deserunt impedit, corporis sint minima provident ut nulla reiciendis amet ullam mollitia fuga veniam in possimus harum, aliquam modi hic assumenda?
+                    </div>
+                    <div class="columna col-12">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel placeat iste voluptas, omnis voluptatem iure a totam tempora illum beatae nihil quo temporibus, explicabo nisi fuga laborum dolorem? Repudiandae, facilis.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In pariatur alias odit, obcaecati aliquam quibusdam eum earum perferendis quidem doloremque consequuntur minus eligendi ipsam maiores nostrum libero excepturi. Nemo, iste.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="aside col-4 align-self-center">
+                <h1>ASIDE</h1>
+                <p>4 columnas </p>
+            </div>
+        </div>
+        <div class="row justify-content-between">
+            <div class="colus col-3">
+                <p> 3 columnas </p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quia, eaque minima sit, commodi saepe quasi doloribus ipsum, mollitia hic consequuntur inventore! Est minima quos eveniet iusto dolorem, officiis accusantium!
+            </div>
+            <div class="colus col-3">
+                <p> 3 columnas </p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quia, eaque minima sit, commodi saepe quasi doloribus ipsum, mollitia hic consequuntur inventore! Est minima quos eveniet iusto dolorem, officiis accusantium!
+            </div>
+            <div class="colus col-3">
+                <p> 3 columnas </p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quia, eaque minima sit, commodi saepe quasi doloribus ipsum, mollitia hic consequuntur inventore! Est minima quos eveniet iusto dolorem, officiis accusantium!
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="footer col-12">
+                <h3> Footer </h3>
+                <p>12 columnas </p>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    </div>
+
+
+
+
+
 
 </body>
 
